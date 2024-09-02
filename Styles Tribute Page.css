@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+main {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding-top: 60px; /* Ensure the header is fully visible */
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#tribute-info {
+  margin: 20px 0;
+}
+
+#tribute-link {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  color: #007bff;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+
+/* Smooth scrolling for users who prefer it */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}

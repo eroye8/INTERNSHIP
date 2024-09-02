@@ -1,0 +1,65 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navbar */
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+#navbar header {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* Style the main content */
+#main-doc {
+    margin-left: 220px; /* To create space for the navbar */
+    padding: 20px;
+}
+
+.main-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main-section header {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    #navbar {
+        display: none; /* Hide the navbar on smaller screens */
+    }
+    #main-doc {
+        margin-left: 0; /* Remove margin for full-width content */
+    }
+}
